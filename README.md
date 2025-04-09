@@ -38,20 +38,31 @@ For this project, I created an Active Directory Home Lab environment using Oracl
    <br />
    <br />
    <br />
-3. **Installing and Configuring Active Directory**: Install the Active Directory Domain Services (AD DS) role on the Windows Server 2019 VM, promote it to a domain controller, and create a new domain. 
 
-4. **Setting Up Routing and Remote Access**: Configure the Routing and Remote Access role to enable Network Address Translation (NAT), allowing client machines on the internal network to access the internet through the domain controller.
+3. **Configure IP Addressing for Internal Network**:
+<img src="https://github.com/user-attachments/assets/e3ad17f5-5793-4a1e-b770-1b9a8ca7efd5" height="60%" width="60%" />
+<br />
+<br />
+<br />
 
-5. **Configuring DHCP**: Install and configure the Dynamic Host Configuration Protocol (DHCP) role on the domain controller to assign IP addresses to client machines automatically. 
+4. **Installing and Configuring Active Directory**: Install the Active Directory Domain Services (AD DS) role on the Windows Server 2019 VM, promote it to a domain controller, and create a new domain. 
+<img src="https://i.imgur.com/C1pj6td.png" height="60%" width="60%" />
+<br />
+<br />
 
-6. **Automating User Account Creation with PowerShell**: Use a PowerShell script to create multiple user accounts in Active Directory, streamlining the process of populating the domain with users.
+5. **Create an Organizational Unit and Admin Account**: Inside the OU, create a user account and add it to the Domain Admins group
+6. **Setting Up Routing and Remote Access**: Configure the Routing and Remote Access role to enable Network Address Translation (NAT), allowing client machines on the internal network to access the internet through the domain controller.
+
+7. **Configuring DHCP**: Install and configure the Dynamic Host Configuration Protocol (DHCP) role on the domain controller to assign IP addresses to client machines automatically. 
+
+8. **Automating User Account Creation with PowerShell**: Use a PowerShell script to create multiple user accounts in Active Directory, streamlining the process of populating the domain with users.
 
 <img src="https://github.com/user-attachments/assets/5590e9b5-47e7-4f98-ad11-d6325ad78c8c" height="80%" width="80%" />
 <br />
 
-7. **Setting Up a Windows 10 Client VM**: Create a Windows 10 VM, configure its network settings to connect to the internal network, and join it to the newly created domain. 
+8. **Setting Up a Windows 10 Client VM**: Create a Windows 10 VM, configure its network settings to connect to the internal network, and join it to the newly created domain. 
 
-8. **Verifying Domain Functionality**: Log in to the Windows 10 client using one of the domain user accounts to confirm successful integration and functionality of the Active Directory environment. 
+10. **Verifying Domain Functionality**: Log in to the Windows 10 client using one of the domain user accounts to confirm successful integration and functionality of the Active Directory environment. 
 
 
 </p>
