@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-For this project, I created an Active Directory Home Lab environment using Oracle Virtual Box.
+This project involved setting up a complete Active Directory (AD) home lab environment using Oracle VirtualBox to simulate a small enterprise network. The lab was designed to provide hands-on experience with Windows Server administration, domain controller configuration, and client machine management in a controlled virtualized setting.
 <br />
 
 
